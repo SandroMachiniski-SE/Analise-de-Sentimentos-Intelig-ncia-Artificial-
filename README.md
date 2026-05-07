@@ -1,5 +1,7 @@
 # Analise-de-Sentimentos-Intelig-ncia-Artificial-
 Exercicios de Análises de Sentimento utilizando NLP em Python
+
+
 🎬 Análise de Sentimentos com IMDb
 Este projeto implementa um classificador de sentimentos simples em Python utilizando a biblioteca NLTK.
 O objetivo é identificar se uma frase expressa sentimento positivo ou negativo, com base em um conjunto reduzido de frases de opinião inspiradas no dataset IMDb.
@@ -19,6 +21,7 @@ Avaliação do modelo com matriz de confusão
 
 Cálculo da acurácia
 
+
 🛠️ Tecnologias utilizadas
 Python 3.13+
 
@@ -27,6 +30,7 @@ NLTK (Natural Language Toolkit)
 scikit-learn (para matriz de confusão)
 
 matplotlib (para visualização gráfica)
+
 
 🚀 Como executar
 Clone ou baixe este repositório.
@@ -45,6 +49,8 @@ Execute o script principal:
 
 bash
 python Anal_Sentimento.py
+
+
 📊 Exemplo de saída
 No terminal:
 

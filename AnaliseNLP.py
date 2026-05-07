@@ -1,3 +1,5 @@
+# Sandro Machiniski, Diego Cunha e Lucas Eufrasio
+
 import nltk
 from nltk.corpus import stopwords
 from nltk.stem import RSLPStemmer

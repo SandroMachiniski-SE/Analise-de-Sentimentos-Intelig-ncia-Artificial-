@@ -1,3 +1,5 @@
+# Sandro Machiniski, Diego Cunha e Lucas Eufrasio
+
 # 1. Importar bibliotecas necessárias
 import nltk
 from nltk.corpus import stopwords

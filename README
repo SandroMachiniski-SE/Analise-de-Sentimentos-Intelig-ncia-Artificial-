@@ -1,0 +1,60 @@
+🎬 Análise de Sentimentos com IMDb
+Este projeto implementa um classificador de sentimentos simples em Python utilizando a biblioteca NLTK.
+O objetivo é identificar se uma frase expressa sentimento positivo ou negativo, com base em um conjunto reduzido de frases de opinião inspiradas no dataset IMDb.
+
+📌 Funcionalidades
+Pré-processamento de texto:
+
+Remoção de stopwords em português
+
+Stemização (redução das palavras ao radical)
+
+Treinamento de um classificador Naïve Bayes
+
+Testes com frases novas
+
+Avaliação do modelo com matriz de confusão
+
+Cálculo da acurácia
+
+🛠️ Tecnologias utilizadas
+Python 3.13+
+
+NLTK (Natural Language Toolkit)
+
+scikit-learn (para matriz de confusão)
+
+matplotlib (para visualização gráfica)
+
+🚀 Como executar
+Clone ou baixe este repositório.
+
+Instale as dependências:
+
+bash
+python -m pip install nltk scikit-learn matplotlib
+Baixe os recursos necessários do NLTK (apenas na primeira execução):
+
+python
+import nltk
+nltk.download('stopwords')
+nltk.download('rslp')
+Execute o script principal:
+
+bash
+python Anal_Sentimento.py
+📊 Exemplo de saída
+No terminal:
+
+Código
+Frase: ['lanch', 'bonit', 'sabor'] -> Sentimento: positivo
+Frase: ['amedront', 'situ'] -> Sentimento: negativo
+Acurácia: 0.83
+E uma janela será aberta mostrando a matriz de confusão em gráfico.
+
+📈 Próximos passos
+Expandir a base de treinamento com mais frases reais do IMDb.
+
+Testar com datasets maiores (ex.: nltk.corpus.movie_reviews).
+
+Comparar diferentes algoritmos de classificação (SVM, Logistic Regression, etc.).
